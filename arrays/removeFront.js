@@ -3,5 +3,10 @@
 
 var removeFront;
 
+function removeFront(arr, num){
+  arr.shift(num);
+  return arr;
+}
+
 // DO NOT DELETE
 module.exports = removeFront;
