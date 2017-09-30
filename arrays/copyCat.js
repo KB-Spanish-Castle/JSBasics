@@ -3,10 +3,12 @@
 
 var copyCat;
 
-function copyCat(arr, num)
+
+function copyCat(arr, copyCat)
 {
-  arr.concat(num[2],num[3]);
-  return arr;
+  copyCat = arr[2];
+  copyCat = arr[3];
+  return copyCat;
 }
 
 //I had done slice that was incorrect!
