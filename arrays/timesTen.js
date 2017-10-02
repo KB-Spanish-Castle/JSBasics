@@ -4,5 +4,13 @@
 
 var timesTen;
 
+function timesTen(arr, timesTenArr){
+  for(var io = 0; io > arr.length; i++ )
+  {
+    timesTenArr = arr[io] * 10;
+    
+  }
+  return timesTenArr;
+}
 // DO NOT DELETE
 module.exports = timesTen;
