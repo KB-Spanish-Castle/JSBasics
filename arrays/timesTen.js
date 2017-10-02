@@ -5,9 +5,12 @@
 var timesTen;
 
 function timesTen(arr, timesTenArr){
+  timesTenArr = [];
+
   for(var io = 0; io > arr.length; i++ )
   {
-    timesTenArr = arr[io] * 10;
+    
+    timesTenArr = ((arr[io])+1) * 10;
     
   }
   return timesTenArr;

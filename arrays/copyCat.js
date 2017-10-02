@@ -17,17 +17,21 @@ It is the most basic of javascript array syntax.
 
 var copyCat;
 
-//var arr2 = [12, 42, 36, 51, 96];
+var arr2 = [1, 2, 3, 4, 5];
 
-function copyCat(arr, upFrontArray, copycatArray)
+function copyCat(arr)
 {
   upFrontArray = arr;
+  var arr3 = [];
+  arr3[0] = arr[2];
+  arr3[1] = arr[3];
+  
   //copycatArray[0] = arr[2];
   //copycatArray[1] = arr[3];
   //upFrontArray.push(arr);
   //copycatArray.push(arr[2], arr[3]);
   
-  return copyCat;
+  return arr3;
 }
 
 /*
