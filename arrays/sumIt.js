@@ -3,5 +3,12 @@
 
 var sumIt;
 
+function sumIt(arr, sum)
+{
+  sum = arr[0] + arr[1] + arr[2]; 
+  return sum;
+}
+
+
 // DO NOT DELETE
 module.exports = sumIt;
