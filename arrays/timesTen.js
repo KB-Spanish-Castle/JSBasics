@@ -4,16 +4,18 @@
 
 var timesTen;
 
-function timesTen(arr, timesTenArr){
-  timesTenArr = [];
+function timesTen(arr){
+  var testArr = [];
 
-  for(var io = 0; io > arr.length; i++ )
+  for(var io = 0; io < arr.length; io++ )
   {
-    
-    timesTenArr = ((arr[io])+1) * 10;
+    console.log("MY IO IS: " + io);
+    testArr.push((arr[io]) * 10);
     
   }
-  return timesTenArr;
+  console.log("My testArr is: " + testArr);
+  return testArr;
+  
 }
 // DO NOT DELETE
 module.exports = timesTen;
