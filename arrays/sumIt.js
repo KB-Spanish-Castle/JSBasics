@@ -3,7 +3,7 @@
 
 var sumIt;
 
-function sumIt(arr, sum)
+function sumIt(arr)
 {
   sum = 0;
   //sum = arr[0] + arr[1] + arr[2]; 
