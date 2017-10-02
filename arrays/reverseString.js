@@ -13,4 +13,5 @@ function reverseString(val)
 
 // DO NOT DELETE
 module.exports = reverseString;
+//Source:
 //https://medium.freecodecamp.org/how-to-reverse-a-string-in-javascript-in-3-different-ways-75e4763c68cb
