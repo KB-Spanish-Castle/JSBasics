@@ -10,6 +10,8 @@ var library = [
 
 var sortObjects;
 /*
+Array Sort JavaScript
+
 function titleSort()
 {
   for(var tcount; tcount < library.length(); tcount++){

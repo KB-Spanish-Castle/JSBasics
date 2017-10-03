@@ -4,20 +4,25 @@
 // Hint: Use the modulus operator
 
 var evenOdd;
-
+var myEOarray = [];
 function evenOdd(arr)
 {
-  var y = 0;
-  if((arr[y]%2)=1)
+  
+  for(var ei = 0; ei < arr.length; ei++)
   {
-    console.log("Odd");
+  
+    if((arr[ei]%2)==1)
+    {
+      console.log("Odd");
+      myEOarray[ei] = "odd";
+    }
+    else
+    {
+      console.log("Even");
+      myEOarray[ei] = "even";
+    }
   }
-  else
-  {
-    console.log("Even");
-  }
-
-
+  return myEOarray;
 }
 
 
