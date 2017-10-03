@@ -9,8 +9,8 @@ function copyCat(arr)
 
   arrList[0] = arr[2];
   arrList[1] = arr[3];
-  
-  return arr3;
+
+  return arrList;
 }
 
 // DO NOT DELETE
