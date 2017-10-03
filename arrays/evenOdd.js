@@ -5,5 +5,21 @@
 
 var evenOdd;
 
+function evenOdd(arr)
+{
+  var y = 0;
+  if((arr[y]%2)=1)
+  {
+    console.log("Odd");
+  }
+  else
+  {
+    console.log("Even");
+  }
+
+
+}
+
+
 // DO NOT DELETE
 module.exports = evenOdd;
