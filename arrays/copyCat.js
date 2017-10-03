@@ -5,10 +5,10 @@ var copyCat;
 
 function copyCat(arr)
 {
-  var arr3 = [];
-  
-  arr3[0] = arr[2];
-  arr3[1] = arr[3];
+  var arrList = [];
+
+  arrList[0] = arr[2];
+  arrList[1] = arr[3];
   
   return arr3;
 }
