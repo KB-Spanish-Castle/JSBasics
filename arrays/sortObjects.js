@@ -9,17 +9,6 @@ var library = [
 ];
 
 var sortObjects;
-/*
-Array Sort JavaScript
 
-function titleSort()
-{
-  for(var tcount; tcount < library.length(); tcount++){
-  
-    sortObjects.sort(title[tcount]);
-    
-  }
-  
-}*/
 // DO NOT DELETE
 module.exports = sortObjects;
