@@ -3,5 +3,17 @@
 
 var chopIt;
 
+function chopIt(arr)
+{
+  
+  var choptItArray = arr;
+  
+  choptItArray.splice(3,1,6,7);
+  //choptItArray.push(6,7);
+  console.log("MY LARGE ARRAY IS: " + choptItArray);
+  return choptItArray;
+
+}
+
 // DO NOT DELETE
 module.exports = chopIt;
