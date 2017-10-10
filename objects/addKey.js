@@ -3,10 +3,13 @@
 
 var animal;
 var addKey;
+var myAnimals = {};
 
-function addKey()
+function addKey(myAnimals)
 {
-  
+  myAnimals = {animalType: "Lizzard", animalName: "Aligator"};
+  console.log(myAnimals);
+  return myAnimals;
 }
 
 // DO NOT DELETE
