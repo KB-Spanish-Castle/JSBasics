@@ -4,10 +4,10 @@
 
 
 var speech;
-
+//create a method of speech
 function speech(animal) {
   var animal = { species: "Feline", name: "Tiger", age: 4, gender: "Male", favoriteFood: "Salmon" };;
-  return speech;
+  return animal();
 }
 
 
