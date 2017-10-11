@@ -9,7 +9,7 @@ function chopIt(arr)
   
   var choptItArray = arr;
   
-  hoptItArray.splice(3,1,six,seven);
+  choptItArray.splice(3,1,six,seven);
   //hoptItArray.splice(3,1,6,7);
   console.log("MY LARGE ARRAY IS: " + choptItArray);
   return choptItArray;

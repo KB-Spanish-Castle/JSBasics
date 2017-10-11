@@ -4,16 +4,20 @@
 
 
 var speech;
+
+function speech() {
+  return "animal";
+}
+
+var animal = {
+  species: "Feline",
+  name: "Felix",
+  age: 4,
+  gender: "Male",
+  favoriteFood: "Salmon",
+  speech: speech
+};
 //create a method of speech
-speech = Object.create({}, {
-  animal: {
-    species: "Feline",
-    name: "Tiger",
-    age: 4,
-    gender: "Male",
-    favoriteFood: "Salmon"
-  }
-});
 
 
 // DO NOT DELETE
