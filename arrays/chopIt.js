@@ -2,14 +2,14 @@
 // It deletes the original 3rd index value and inserts the two numbers in it's place.
 
 var chopIt;
-var six = 6;
-var seven = 7;
-function chopIt(arr)
+var six;
+var seven;
+function chopIt(arr, valueOne, valueTwo)
 {
   
   var choptItArray = arr;
   
-  choptItArray.splice(3,1,six,seven);
+  choptItArray.splice(3,1,valueOne,valueTwo);
   //hoptItArray.splice(3,1,6,7);
   console.log("MY LARGE ARRAY IS: " + choptItArray);
   return choptItArray;
