@@ -3,14 +3,26 @@
 
 var animal;
 var addKey;
-var myAnimals = {};
+var myAnimals = {animalType: "Tiger"};
 
-function addKey(myAnimals)
-{
-  myAnimals = {animalType: "Lizzard", animalName: "Aligator"};
-  console.log(myAnimals);
-  return myAnimals;
+
+function addKey(myAnimals) {
+  myAnimals = {
+    animalType: "Lizzard",
+    animalName: "Aligator",
+    animalAge: 5
+
+  }
+
+  return addKey;
 }
 
 // DO NOT DELETE
 module.exports = addKey;
+//   myAnimals = {
+//     animalType: "Lizzard",
+//     animalName: "Aligator"
+//   };
+//   console.log(myAnimals);
+// }
+
