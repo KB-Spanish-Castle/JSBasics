@@ -11,7 +11,6 @@ function findSpecies(arr) {
     newArray.push(arr[iy].species);
   }
   console.log(newArray + " ");
-  
   return newArray;
 }
 

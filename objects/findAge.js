@@ -6,7 +6,7 @@ var findAge;
 
 function findAge() {
   animal = { age: 10 }
-  return findAge.age;
+  return animal.age;
 }
 // DO NOT DELETE
 module.exports = findAge;
