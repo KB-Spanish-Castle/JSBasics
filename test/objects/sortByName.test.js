@@ -4,7 +4,7 @@ var sortedArr = require('../../objects/sortByName.js');
 var expect = chai.expect;
 var assert = chai.assert;
 
-xdescribe("Object Array Exercise - sortbyName()", function(){
+describe("Object Array Exercise - sortbyName()", function(){
   it('should return sorted array', function () {
     expect(sortedArr.length).to.eql(5);
     expect(sortedArr[0].name).to.eql('Beauty');

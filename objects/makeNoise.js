@@ -4,5 +4,9 @@
 var animal;
 var makeNoise;
 
+function makeNoise(animal, noise) {
+  return animal.noise();
+}
+
 // DO NOT DELETE
 module.exports = makeNoise;

@@ -4,5 +4,14 @@
 
 var keyLoop;
 
+//key value pair
+function keyLoop(obj) {
+  if (obj.animal === "monkey") {
+    return "There's a monkey!";
+  }
+  else {
+    return "There's no monkey here!";
+  }
+}
 // DO NOT DELETE
 module.exports = keyLoop;
