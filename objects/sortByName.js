@@ -8,13 +8,17 @@ var animals = [
   { species: 'Elephant', name: 'Jumbo', age: 22, gender: 'male', favoriteFood: 'Apples' },
   { species: 'Bird', name: 'Twiti', age: 7, gender: 'male', favoriteFood: 'Seeds' },
 ];
+console.log("SORTBYNAME ");
 
-var sortByName = {};
-
-animals.sort(function(name))
+function sortByName(animals)
 {
+  var sortedArray = animals.sort((a, b) => a.name.localeCompare(b.name));
+  console.log(sortedArray);
+  return sortedArray;
   
-};
+}
+
+sortByName(animals)
 /*
 items.sort(function(a, b) {
   var nameA = a.name.toUpperCase(); // ignore upper and lowercase
@@ -31,5 +35,5 @@ items.sort(function(a, b) {
 });
 */
 // DO NOT DELETE
-return sortByName;
+
 module.exports = sortByName;
